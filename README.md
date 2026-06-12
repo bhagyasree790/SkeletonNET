@@ -1,6 +1,6 @@
 # SkeletonNET
 
-A "from-scratch" implementation of a .NET-like web framework to understand the internals of Dependency Injection (DI) lifetimes, middleware pipelines, and HTTP request handling.
+A "from-scratch" implementation of a .NET like a web framework to understand the internal workflow of a dotnet web application from client to kestral to middleware pipeline to the endpoint with implementation of Dependency Injection (DI) lifetimes, middleware pipelines, and HTTP request handling. A CURD operation also implemented to understand the whole sitution through different methods.
 
 ## 🚀 Overview
 
@@ -49,7 +49,8 @@ Navigate to `GET /lifetimes` to see a live comparison of service IDs.
 
 ### 2. CRUD Operations
 - **GET** `/users`: List all users.
-- **POST** `/users`: Create a user (Body: `{"Name": "NewUser"}`).
+- **POST** `/users`: Create a user (Body: `{"Id": 1, "Name": "NewUser"}`).
+- **PUT** `/users`: Update a user (Body: `{"Id": 1, "Name": "Admin"}`).
 - **DELETE** `/users/{id}`: Delete a user by ID.
 
 ### 3. Middleware & Error Handling
