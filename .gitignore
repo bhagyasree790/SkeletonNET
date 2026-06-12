@@ -1,0 +1,25 @@
+# Build artifacts
+bin/
+obj/
+
+# IDE specific files
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.sln.doccache
+*.suo
+
+# Project specific temporary files
+.gemini/
+*.tmp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
